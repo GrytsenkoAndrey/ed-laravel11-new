@@ -2,6 +2,10 @@
 Whats new in Laravel 11
 
 # Table of Content
+- [What's New](#new)
+- [](#)
+
+# New
 
 ## No Http/Middleware folder
 In older Laravel versions there was a Http/Middleware folder with some default middlewares such as:
