@@ -1,6 +1,8 @@
 # ed-laravel11-new
 Whats new in Laravel 11
 
+# Table of Content
+
 ## No Http/Middleware folder
 In older Laravel versions there was a Http/Middleware folder with some default middlewares such as:
 
@@ -124,6 +126,8 @@ As you can see, the bcrypt function is called only twice:
 - Once with the input of password
 - And one more time with the input of my-strong-pass
 
+
+# Unlocking Laravel 11: Advanced Features Every Developer Should Know
 So all the subsequent calls with the same input will return the cached result.
 
 
