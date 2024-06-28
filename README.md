@@ -134,45 +134,45 @@ So all the subsequent calls with the same input will return the cached result.
 
 # Unlocking Laravel 11
 
-1. Health Check Endpoint
+## 1. Health Check Endpoint
 
 Laravel 11 introduces a new health-check endpoint, allowing developers to perform various verifications of different parts of their application to ensure everything is running smoothly. This can be set up in bootstrap/app.php and helps maintain application reliability​
-References: (GitHub)​​ (Laravel Daily)​
-2. Per-Second Rate Limiting
+
+## 2. Per-Second Rate Limiting
 
 Laravel 11 enhances rate limiting by allowing limits to be set per second, in addition to the existing per-minute limits. This fine-grained control prevents users from sending too many requests in a short burst, ensuring more consistent and fair usage of resources​.
-References: (GitHub)​
-3. Model::casts() Method
+
+## 3. Model::casts() Method
 
 The new Model::casts() method provides a more flexible way to define attribute casting in models. It supports using static methods with parameters and allows specifying casts as arrays, offering more control over data transformations within Eloquent models​.
-References: (GitHub)​​ (Laravel Daily)​
-4. Dumpable Trait
 
-The Dumpable trait replaces the existing dd() and dump() methods, offering a standardized way to include debugging aids within classes. This makes it easier to debug and inspect objects throughout the application​. References: (GitHub)​​ (Kinsta®)​
-5. Simplified Configuration Management
+## 4. Dumpable Trait
+
+The Dumpable trait replaces the existing dd() and dump() methods, offering a standardized way to include debugging aids within classes. This makes it easier to debug and inspect objects throughout the application​.
+
+## 5. Simplified Configuration Management
 
 Laravel 11 consolidates configuration settings into a single .env file, streamlining the development workflow by reducing the need for multiple configuration files. This change improves organization and simplifies managing environment-specific settings​.
-References: (Kinsta®)​.
-6. New Defaults: Pest and SQLite
+
+## 6. New Defaults: Pest and SQLite
 
 Laravel 11 sets Pest as the default testing framework and SQLite as the default database for local development. This change simplifies initial setup and encourages the use of lightweight, efficient tools for testing and development environments​.
-References: (Laravel Daily)​
-7. Opt-In API and Broadcast Routing
+
+## 7. Opt-In API and Broadcast Routing
 
 With Laravel 11, API and broadcast routing are now optional features that can be added using specific artisan commands (php artisan install:api and php artisan install:broadcasting). This modular approach helps keep applications lean by including only the necessary components​.
-References: (Headless CMS and Content API)​
-8. Limit Eager Loading
+
+## 8. Limit Eager Loading
 
 Developers can now limit eagerly loaded records natively within their models, enhancing performance by reducing the amount of data loaded in relationships. This feature was previously available only through external packages but is now built into Laravel 11.
-References:​ (Laravel Daily)​
-9. Consolidated Default Migrations
+
+## 9. Consolidated Default Migrations
 
 Laravel 11 simplifies default migrations by condensing them into fewer files, making the development process more straightforward and reducing the boilerplate code developers need to manage​.
-References: (Kinsta®)​
-10. Removed Laravel Kernel
+
+## 10. Removed Laravel Kernel
 
 The Laravel kernel has been removed in favor of the Bootstrap/App class, which provides a more modular architecture. This change reduces boilerplate code and allows developers to focus more on core functionalities while ensuring a streamlined setup process​.
-References: (Kinsta®)​
 
 These advanced features not only enhance the Laravel development experience but also demonstrate the framework’s commitment to evolving with modern development practices. Sharing insights about these updates can help your LinkedIn network stay informed and inspired about the latest in Laravel development.
 
